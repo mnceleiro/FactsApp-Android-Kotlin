@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_container"
     android:orientation="horizontal"
-    tools:context=".ListaEventosFragment">
+    tools:context=".fragments.ListaEventosFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_lista_eventos"

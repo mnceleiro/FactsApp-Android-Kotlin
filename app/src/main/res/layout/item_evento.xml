@@ -6,7 +6,7 @@
     android:layout_height="128dp"
     android:gravity="center"
     android:orientation="horizontal"
-    tools:context=".ListaEventosFragment">
+    tools:context=".fragments.ListaEventosFragment">
 
     <TextView
         android:id="@+id/tv_lista_eventos_anho"

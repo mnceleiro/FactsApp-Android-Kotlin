@@ -1,3 +1,8 @@
 package es.murallaromana.pmdm.factsapp.entities
 
-class Evento(val anho: Int, val descripcion: String)
+import com.google.gson.annotations.SerializedName
+
+class Evento(
+    @SerializedName("year") val anho: Int,
+    @SerializedName("description") val descripcion: String
+)
